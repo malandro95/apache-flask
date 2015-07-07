@@ -14,7 +14,7 @@ from commontools import log
 #-----------------------------------
 @app.route('/')
 def index():
-	return render_template('index.html')
+	return 'Hello World'
 
 #-----------------------------------
 @app.errorhandler(500)
